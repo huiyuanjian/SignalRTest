@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRTest", "SignalRTest.csproj", "{D3040FD6-1E34-4034-9273-461747390B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSignalRClient", "TestSignalRClient\TestSignalRClient.csproj", "{19124077-350D-48CE-8BBA-114947A284BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSignalRServer", "TestSignalRServer\TestSignalRServer.csproj", "{5D0936DC-74AD-462E-9E9C-23BA08270879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D3040FD6-1E34-4034-9273-461747390B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3040FD6-1E34-4034-9273-461747390B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3040FD6-1E34-4034-9273-461747390B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3040FD6-1E34-4034-9273-461747390B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19124077-350D-48CE-8BBA-114947A284BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19124077-350D-48CE-8BBA-114947A284BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19124077-350D-48CE-8BBA-114947A284BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19124077-350D-48CE-8BBA-114947A284BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0936DC-74AD-462E-9E9C-23BA08270879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0936DC-74AD-462E-9E9C-23BA08270879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0936DC-74AD-462E-9E9C-23BA08270879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0936DC-74AD-462E-9E9C-23BA08270879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
