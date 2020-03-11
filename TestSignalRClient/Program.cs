@@ -31,6 +31,11 @@ namespace TestSignalRClient
                 Console.WriteLine("Recieve sucessfully!");
             });
 
+            connection.On("AreYouOK", () =>
+            {
+                Console.WriteLine("Fine, thank you. And you?");
+            });
+
             connection.StartAsync();
             Console.WriteLine("Start connect");
             Console.ReadKey();

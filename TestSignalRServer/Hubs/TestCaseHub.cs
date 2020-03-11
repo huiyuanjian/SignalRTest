@@ -25,5 +25,10 @@ namespace TestSignalRServer
             }
 
         }
+
+        public async Task SayHello()
+        {
+            await Clients.All.SendAsync("AreYouOK");
+        }
     }
 }
